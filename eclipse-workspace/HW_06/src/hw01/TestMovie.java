@@ -1,0 +1,13 @@
+package hw01;
+
+public class TestMovie {
+	public static void main(String[] arg) {
+		Movie movie = new Movie();
+		movie.director = "ºÀÁØÈ£";
+		movie.title = "±«¹°";
+		movie.rating = 8.61;
+		movie.publishDate = "2006³â 07¿ù 27ÀÏ";
+		
+		movie.print();
+	}
+}
